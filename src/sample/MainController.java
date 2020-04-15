@@ -1,10 +1,12 @@
 package sample;
 
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.control.Button;
-import javafx.scene.control.Label;
+import javafx.scene.control.*;
+import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.Pane;
 
@@ -23,7 +25,6 @@ public class MainController implements Initializable {
     @FXML
     private void  velgProsessorButton (ActionEvent event) throws IOException {
 
-        System.out.println("You cliked me ");
         FxmlLoader object = new FxmlLoader();
         Pane view = object.getPage("screen1");
         mainPane.setCenter(view);
@@ -31,7 +32,7 @@ public class MainController implements Initializable {
     }// prosessorButtonPresserd
 
     @FXML
-    private void  velgSkjermButtom (ActionEvent event) throws IOException {
+    private void  velgSkjermkortButton (ActionEvent event) throws IOException {
 
         System.out.println("You cliked me ");
         FxmlLoader object = new FxmlLoader();
@@ -95,6 +96,15 @@ public class MainController implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
+
+
+
+
+
+
+
+
+
 
 
     }

@@ -16,10 +16,9 @@ public class FxmlLoader {
     public Pane getPage (String fileName ) throws IOException {
 
 
-        //URL fileUrl =Main.class.getResource( fileName + ".fxml");
-        //Parent rt = FXMLLoader.load(getClass().getResource(fileName +".fxml"));
 
-        //new FXMLLoader();
+
+
         view = new FXMLLoader().load(getClass().getResource(fileName +".fxml"));
 
         return view;
