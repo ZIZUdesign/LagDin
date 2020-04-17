@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6099bdb1-a10c-4670-a887-f595ffa1a3ca" name="Default Changelist" comment="" />
+    <list default="true" id="6099bdb1-a10c-4670-a887-f595ffa1a3ca" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/out/production/LagDinPC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LagDinPC/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LagDinPC/sample/Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LagDinPC/sample/Data.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LagDinPC/sample/screen1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LagDinPC/sample/screen1.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LagDinPC/sample/screen1Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LagDinPC/sample/screen1Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LagDinPC/sample/screen2Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LagDinPC/sample/screen2Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LagDinPC/sample/screen3Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LagDinPC/sample/screen3Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LagDinPC/sample/screen4Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LagDinPC/sample/screen4Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LagDinPC/sample/screen5Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LagDinPC/sample/screen5Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LagDinPC/sample/screen6Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LagDinPC/sample/screen6Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LagDinPC/sample/screen7Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LagDinPC/sample/screen7Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LagDinPC/src/sample/screen1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LagDinPC/src/sample/screen1.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/screen1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/screen1.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/screen1Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/screen1Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/screen2Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/screen2Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/screen3Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/screen3Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/screen4Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/screen4Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/screen5Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/screen5Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/screen6Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/screen6Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/screen7Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/screen7Controller.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,7 +123,7 @@
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHubDesktop/app-2.4.0/GitHubDesktop.exe" />
     <property name="recentsLimit" value="5" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -210,7 +231,19 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1585785944049</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="DATA1600">
+      <created>1586981215824</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1586981215824</updated>
+    </task>
+    <task id="LOCAL−00004" summary="DATA1600">
+      <created>1586981509664</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1586981509664</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -240,42 +273,46 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1586561004729" />
-    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1586284489835">
+    <state x="296" y="0" key="CommitChangelistDialog2" timestamp="1586981508881">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1586284489835" />
-    <state x="511" y="234" key="Github.ShareDialog" timestamp="1586264021743">
+    <state x="296" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1586981508881" />
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1586978854932">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="511" y="234" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1586264021743" />
-    <state width="1202" height="433" key="GridCell.Tab.0.bottom" timestamp="1586556268298">
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1586978854932" />
+    <state x="511" y="234" key="Github.ShareDialog" timestamp="1586981897374">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1202" height="433" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586556268298" />
-    <state width="1202" height="433" key="GridCell.Tab.0.center" timestamp="1586556268298">
+    <state x="511" y="234" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1586981897374" />
+    <state width="1202" height="432" key="GridCell.Tab.0.bottom" timestamp="1586987232196">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1202" height="433" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586556268298" />
-    <state width="1202" height="433" key="GridCell.Tab.0.left" timestamp="1586556268293">
+    <state width="1202" height="432" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586987232196" />
+    <state width="1202" height="432" key="GridCell.Tab.0.center" timestamp="1586987232196">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1202" height="433" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586556268293" />
-    <state width="1202" height="433" key="GridCell.Tab.0.right" timestamp="1586556268298">
+    <state width="1202" height="432" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586987232196" />
+    <state width="1202" height="432" key="GridCell.Tab.0.left" timestamp="1586987232196">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1202" height="433" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586556268298" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1586881917766">
+    <state width="1202" height="432" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586987232196" />
+    <state width="1202" height="432" key="GridCell.Tab.0.right" timestamp="1586987232196">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1586881917766" />
+    <state width="1202" height="432" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586987232196" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1586981691185">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1586981691185" />
     <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1586255641704">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1586255641704" />
-    <state x="336" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1586881784210">
+    <state x="336" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1587151592585">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="336" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1586881784210" />
+    <state x="336" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1587151592585" />
     <state x="450" y="257" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586257119401">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -288,5 +325,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="90" y="42" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1586257410811" />
+    <state x="383" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1586985390862">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="383" y="0" key="refactoring.ChangeSignatureDialog/0.0.1280.680@0.0.1280.680" timestamp="1586985390862" />
   </component>
 </project>

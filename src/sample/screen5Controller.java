@@ -39,11 +39,11 @@ public class screen5Controller implements Initializable {
 
 
         final ObservableList<Data> list = FXCollections.observableArrayList(
-                new Data("AMD Athlon 3000G Prosessor", 599,ch),
-                new Data("AMD Athlon 200GE Prosessor", 649,ch),
-                new Data("Intel Celeron G4930 Prosessor", 499,ch),
-                new Data("Intel Pentium G5420 Prosessor", 649,ch),
-                new Data("Intel Xeon Platinum 8180 Prosessor", 146459,ch)
+                new Data("AMD Athlon 3000G Prosessor", 599),
+                new Data("AMD Athlon 200GE Prosessor", 649),
+                new Data("Intel Celeron G4930 Prosessor", 499),
+                new Data("Intel Pentium G5420 Prosessor", 649),
+                new Data("Intel Xeon Platinum 8180 Prosessor", 146459)
         );
 
         tableView.setItems(list);

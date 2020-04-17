@@ -8,14 +8,15 @@ public class Data {
 
     private SimpleStringProperty navn;
     private SimpleDoubleProperty pris;
-    private CheckBox velg;
 
-    public Data(String fnavn, int newPris, CheckBox ch) {
+
+    public Data(String fnavn, double newPris) {
         this.navn = new SimpleStringProperty(fnavn);
         this.pris = new SimpleDoubleProperty(newPris);
-        this.velg= new CheckBox();
 
     }
+
+
 
 
     public String getNavn() {
@@ -38,13 +39,6 @@ public class Data {
         this.pris.set(pris);
     }
 
-    public CheckBox getSelect() {
-        return velg;
-    }
-
-    public void setSelect(CheckBox select) {
-        this.velg = select;
-    }
 
 
 }
