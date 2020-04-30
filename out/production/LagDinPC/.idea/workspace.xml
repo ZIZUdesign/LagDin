@@ -1,333 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6099bdb1-a10c-4670-a887-f595ffa1a3ca" name="Default Changelist" comment="">
+    <list default="true" id="8ba4a629-0e94-4f56-b27e-a475259cf521" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/out/production/LagDinPC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LagDinPC/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LagDinPC/sample/Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LagDinPC/sample/Data.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LagDinPC/sample/screen1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LagDinPC/sample/screen1.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LagDinPC/sample/screen1Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LagDinPC/sample/screen1Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LagDinPC/sample/screen2Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LagDinPC/sample/screen2Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LagDinPC/sample/screen3Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LagDinPC/sample/screen3Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LagDinPC/sample/screen4Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LagDinPC/sample/screen4Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LagDinPC/sample/screen5Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LagDinPC/sample/screen5Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LagDinPC/sample/screen6Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LagDinPC/sample/screen6Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LagDinPC/sample/screen7Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LagDinPC/sample/screen7Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LagDinPC/src/sample/screen1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LagDinPC/src/sample/screen1.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/screen1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/screen1.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/screen1Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/screen1Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/screen2Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/screen2Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/screen3Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/screen3Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/screen4Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/screen4Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/screen5Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/screen5Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/screen6Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/screen6Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/screen7Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/screen7Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LagDinPC/META-INF/LagDinPC.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/admin/Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/EkisisterendeBrukerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/EkisisterendeBrukerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/FxmlLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/admin/FxmlLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/admin/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/admin/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/OpprettBrukerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/OpprettBrukerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/admin/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/sample0.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/admin/sample0.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/screen0Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/admin/screen0Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/screen1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/admin/screen1.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/screen1Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/admin/screen1Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/screen2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/admin/screen2.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/screen2Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/admin/screen2Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/screen3.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/admin/screen3.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/screen3Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/admin/screen3Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/screen4.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/admin/screen4.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/screen4Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/admin/screen4Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/screen5.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/admin/screen5.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/screen5Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/admin/screen5Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/screen6.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/admin/screen6.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/screen6Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/admin/screen6Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/screen7.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/admin/screen7.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/screen7Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/admin/screen7Controller.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
-  </component>
-  <component name="DebuggerManager">
-    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
-      <breakpoint>
-        <option name="NOTIFY_CAUGHT" value="true" />
-        <option name="NOTIFY_UNCAUGHT" value="true" />
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint>
-        <option name="NOTIFY_CAUGHT" value="true" />
-        <option name="NOTIFY_UNCAUGHT" value="true" />
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </breakpoint_any>
-    <ui_properties converted="true" />
-    <breakpoint_rules converted="true" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="JavaFxApplication" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="FxmlFile" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="FindManager">
-    <FindUsagesManager>
-      <setting name="OPEN_NEW_TAB" value="false" />
-    </FindUsagesManager>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
-    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/sample/sample.fxml" root0="SKIP_HIGHLIGHTING" />
-  </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="C:\Users\kahsa\IdeaProjects\LagDinPC\.idea" />
-      </set>
-    </option>
-  </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectId" id="1ZudFe5IEEK6012HL1t83sB2pVR" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectReloadState">
-    <option name="STATE" value="0" />
-  </component>
+  <component name="ProjectId" id="1bGocRrOU0yCJQfGLgg7GQl0uJT" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="GoToClass.includeLibraries" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="OverrideImplement.combined" value="false" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHubDesktop/app-2.4.0/GitHubDesktop.exe" />
-    <property name="recentsLimit" value="5" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\kahsa\IdeaProjects\LagDinPC\src\sample" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\kahsa\IdeaProjects\LagDinPC\src\sample\screen1" />
-      <recent name="C:\Users\kahsa\IdeaProjects\LagDinPC\src\sample" />
-    </key>
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="Applet">
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
-    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
-      <Host>localhost</Host>
-      <Port>5050</Port>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="sample.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sample.admin.Main" />
       <module name="LagDinPC" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sample.screen1.*" />
+          <option name="PATTERN" value="sample.admin.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="TestNG">
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file enabled="true" id="idea.log" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration>C:\Users\kahsa\AppData\Roaming\Subversion</configuration>
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6099bdb1-a10c-4670-a887-f595ffa1a3ca" name="Default Changelist" comment="" />
-      <created>1359379246138</created>
+      <changelist id="8ba4a629-0e94-4f56-b27e-a475259cf521" name="Default Changelist" comment="" />
+      <created>1588267869489</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1359379246138</updated>
-      <workItem from="1359379250712" duration="1302000" />
+      <updated>1588267869489</updated>
     </task>
-    <task id="LOCAL−00001" summary="DATA1600">
-      <created>1585785763323</created>
-      <option name="number" value="LOCAL−00001" />
-      <option name="presentableId" value="LOCAL−00001" />
-      <updated>1585785763323</updated>
-    </task>
-    <task id="LOCAL−00002" summary="DATA1600">
-      <created>1585785944049</created>
-      <option name="number" value="LOCAL−00002" />
-      <option name="presentableId" value="LOCAL−00002" />
-      <updated>1585785944049</updated>
-    </task>
-    <task id="LOCAL−00003" summary="DATA1600">
-      <created>1586981215824</created>
-      <option name="number" value="LOCAL−00003" />
-      <option name="presentableId" value="LOCAL−00003" />
-      <updated>1586981215824</updated>
-    </task>
-    <task id="LOCAL−00004" summary="DATA1600">
-      <created>1586981509664</created>
-      <option name="number" value="LOCAL−00004" />
-      <option name="presentableId" value="LOCAL−00004" />
-      <updated>1586981509664</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1302000" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
-    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
-    <MESSAGE value="DATA1600" />
-    <option name="LAST_COMMIT_MESSAGE" value="DATA1600" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser" timestamp="1586561004729">
+    <state x="409" y="143" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588268894934">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1586561004729" />
-    <state x="296" y="0" key="CommitChangelistDialog2" timestamp="1586981508881">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="296" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1586981508881" />
-    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1586978854932">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1586978854932" />
-    <state x="511" y="234" key="Github.ShareDialog" timestamp="1586981897374">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="511" y="234" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1586981897374" />
-    <state width="1202" height="432" key="GridCell.Tab.0.bottom" timestamp="1586987232196">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1202" height="432" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586987232196" />
-    <state width="1202" height="432" key="GridCell.Tab.0.center" timestamp="1586987232196">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1202" height="432" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586987232196" />
-    <state width="1202" height="432" key="GridCell.Tab.0.left" timestamp="1586987232196">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1202" height="432" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586987232196" />
-    <state width="1202" height="432" key="GridCell.Tab.0.right" timestamp="1586987232196">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1202" height="432" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586987232196" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1586981691185">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1586981691185" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1586255641704">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1586255641704" />
-    <state x="336" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1587151592585">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="336" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1587151592585" />
-    <state x="450" y="257" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586257119401">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="450" y="257" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1586257119401" />
-    <state x="441" y="132" key="git4idea.merge.GitPullDialog" timestamp="1586264080001">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="441" y="132" key="git4idea.merge.GitPullDialog/0.0.1280.680@0.0.1280.680" timestamp="1586264080001" />
-    <state x="90" y="42" key="new project wizard" timestamp="1586257410811">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="90" y="42" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1586257410811" />
-    <state x="383" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1586985390862">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="383" y="0" key="refactoring.ChangeSignatureDialog/0.0.1280.680@0.0.1280.680" timestamp="1586985390862" />
+    <state x="409" y="143" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1588268894934" />
   </component>
 </project>

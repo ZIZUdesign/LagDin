@@ -5,7 +5,6 @@ import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.control.CheckBox;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
@@ -13,14 +12,15 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.control.cell.TextFieldTableCell;
 
 
+import java.io.Serializable;
 import java.net.URL;
+import java.util.List;
 import java.util.ResourceBundle;
 
 import static java.lang.Integer.parseInt;
-import static javafx.scene.control.cell.TextFieldTableCell.*;
 
 
-public class screen1Controller implements Initializable  {
+public class screen1Controller implements Initializable, Serializable {
 
         @FXML
         private TableView<Data> tableView;
@@ -38,22 +38,48 @@ public class screen1Controller implements Initializable  {
      * This method will allow the user to double click on a cell and update
      * the name of the prosessor
      */
-        public void OppdaterNavn( TableColumn.CellEditEvent edditedCell){
-            Data rowSelected = (Data) tableView.getSelectionModel().getSelectedItems();
-            rowSelected.setNavn(edditedCell.getNewValue().toString());
+    @FXML
+    private void OppdaterNavn(TableColumn.CellEditEvent<Data, String> event) {
+        try {
+            event.getRowValue().setName(event.getNewValue());
+        } catch (IllegalArgumentException e) {
+            Dialogs.showErrorDialog("Ugyldig navn: " + e.getMessage());
         }
 
+        tableView.refresh();
+    }
     /**
      * This method will allow the user to double click on a cell and update
      * the name of the prosessor
      */
-    public void OppdaterPris( TableColumn.CellEditEvent edditedCell){
-        Data rowSelected = (Data) tableView.getSelectionModel().getSelectedItems();
-        rowSelected.setPris(Double.parseDouble(edditedCell.getNewValue().toString()));
+    @FXML
+    private void OppdaterPris(TableColumn.CellEditEvent<Data, Double> event) {
+        try {
+            if(intStrConverter.wasSuccessful())
+                event.getRowValue().setPris(event.getNewValue());
+        } catch (NumberFormatException e) {
+            Dialogs.showErrorDialog("Du må skrive inn et positivt tall.");
+        } catch (IllegalArgumentException e) {
+            Dialogs.showErrorDialog("Ugyldig alder: " + e.getMessage());
+        }
+
+        tableView.refresh();
     }
 
     @FXML
     protected void addProsesser(ActionEvent event) {
+
+          final long serialVersionUID = 1;
+
+          ObservableList<Data> pregister = FXCollections.observableArrayList();
+
+        public List<Data> getRegister() {
+            return pregister;
+        }
+
+        public void addPerson(Data d) {
+            pregister.add(d);
+        }
 
             try {
                 ObservableList<Data> data = tableView.getItems();
@@ -66,7 +92,7 @@ public class screen1Controller implements Initializable  {
             catch (NumberFormatException e){
                 throw new IllegalArgumentException(" Prisen må være tall "+e);
             }
-        }
+        }// addProsessor
 
     /**
      * This method will remove the selected row(s) from the table
@@ -124,7 +150,7 @@ public class screen1Controller implements Initializable  {
 
             tableView.setEditable(true);
             navnColumn.setCellFactory(TextFieldTableCell.forTableColumn());
-            //prisColumn.setCellFactory(Double.parseDouble(TextFieldTableCell.forTableColumn());
+            prisColumn.setCellFactory(TextFieldTableCell.forTableColumn(intStrConverter));
 
 
 
