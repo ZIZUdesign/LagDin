@@ -20,7 +20,7 @@ public class MainController implements Initializable {
 
     @FXML
     private void  velgProsessorButton (ActionEvent event) throws IOException {
-
+        System.out.println("You cliked me ");
         FxmlLoader object = new FxmlLoader();
         Pane view = object.getPage("screen1");
         mainPane.setCenter(view);

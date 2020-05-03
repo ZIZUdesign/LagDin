@@ -25,7 +25,7 @@ public class RegisterData implements Serializable {
         return pregister;
     }
 
-    public void addPerson(Data d) {
+    public void addData(Data d) {
         pregister.add(d);
     }
 

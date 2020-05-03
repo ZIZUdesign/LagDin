@@ -15,13 +15,43 @@ import java.util.ResourceBundle;
 public class screen2Controller implements Initializable {
 
     @FXML
-    private TableView<Data> table;
+    private TableView<Data> tableView;
     @FXML
     private TableColumn<Data, String > nameColumn;
     @FXML
     private TableColumn<Data, Integer> priceColumn;
     @FXML
     private TableColumn<Data, CheckBox> selectColumn;
+
+    @FXML
+    private void OppdaterSkjerm(TableColumn.CellEditEvent<Data, String> event) {
+        try {
+            event.getRowValue().setName(event.getNewValue());
+        } catch (IllegalArgumentException e) {
+            Dialogs.showErrorDialog("Ugyldig navn: " + e.getMessage());
+        }
+
+        tableView.refresh();
+    }
+    /**
+     * This method will remove the selected row(s) from the table
+     */
+    @FXML
+    public void fjernSkjerm ()
+    {
+        ObservableList<Data> selectedRows, allData;
+        allData = tableView.getItems();
+
+        //this gives us the rows that were selected
+        selectedRows = tableView.getSelectionModel().getSelectedItems();
+
+        //loop over the selected rows and remove the Person objects from the table
+        for (Data data: selectedRows)
+        {
+            allData.remove(data);
+        }
+    }//fjernProsessor
+
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
@@ -42,7 +72,7 @@ public class screen2Controller implements Initializable {
                 new Data("Intel Xeon Platinum 8180 Prosessor", 146459)
         );
 
-        table.setItems(list);
+        tableView.setItems(list);
 
 
     }
