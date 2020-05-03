@@ -13,7 +13,7 @@ import static sample.BytteAvScener.lastInnStage;
 
 public class OpprettBrukerController {
 
-    Alert alarmboks = new Alert(Alert.AlertType.INFORMATION); // Lager en alarmboks
+    Alert alarmboks = new Alert(Alert.AlertType.INFORMATION); // Lager en alarmboksAndreas
 
     Alert bekreftelse = new Alert(Alert.AlertType.INFORMATION); //Lager en bekreftelse
 

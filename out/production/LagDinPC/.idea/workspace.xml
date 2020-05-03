@@ -1,46 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ba4a629-0e94-4f56-b27e-a475259cf521" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sample/ConvertersWithErrorHandling.java" afterDir="false" />
+    <list default="true" id="f84dadc4-37ea-462e-92b1-a233046ea697" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/out/production/LagDinPC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LagDinPC/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LagDinPC/sample/Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LagDinPC/sample/Data.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LagDinPC/sample/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LagDinPC/sample/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LagDinPC/sample/MainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LagDinPC/sample/screen1Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LagDinPC/sample/screen1Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LagDinPC/sample/screen2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LagDinPC/sample/screen2.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LagDinPC/sample/screen2Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LagDinPC/sample/screen2Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LagDinPC/sample/screen3Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LagDinPC/sample/screen3Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LagDinPC/sample/screen4Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LagDinPC/sample/screen4Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LagDinPC/sample/screen5Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LagDinPC/sample/screen5Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LagDinPC/sample/screen6Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LagDinPC/sample/screen6Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LagDinPC/sample/screen7Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LagDinPC/sample/screen7Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LagDinPC/src/sample/screen2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LagDinPC/src/sample/screen2.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/DataValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/DataValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/RegisterData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/RegisterData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/screen1Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/screen1Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/screen2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/screen2.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/screen2Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/screen2Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LagDinPC/sample/BytteAvScener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LagDinPC/sample/Data.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LagDinPC/sample/MainController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LagDinPC/sample/screen1Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LagDinPC/sample/screen2Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LagDinPC/sample/screen3Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LagDinPC/sample/screen4Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LagDinPC/sample/screen5Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LagDinPC/sample/screen6Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LagDinPC/sample/screen7Controller.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1bGocRrOU0yCJQfGLgg7GQl0uJT" />
+  <component name="ProjectId" id="1afaJzwZUr3KbzOiCekJMHxTiiH" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -48,20 +30,23 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\kahsa\IdeaProjects\LagDin\src\sample" />
-      <recent name="C:\Users\kahsa\IdeaProjects\LagDin\src\sample\admin" />
-    </key>
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sample.App" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sample.Main" />
       <module name="LagDinPC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sample.admin.*" />
+          <option name="PATTERN" value="sample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,7 +56,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -80,61 +65,67 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8ba4a629-0e94-4f56-b27e-a475259cf521" name="Default Changelist" comment="" />
-      <created>1588267869489</created>
+      <changelist id="f84dadc4-37ea-462e-92b1-a233046ea697" name="Default Changelist" comment="" />
+      <created>1587129034099</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1588267869489</updated>
+      <updated>1587129034099</updated>
+      <workItem from="1587129041380" duration="127000" />
+      <workItem from="1588083474104" duration="679000" />
+      <workItem from="1588498043453" duration="859000" />
     </task>
-    <task id="LOCAL−00001" summary="latest">
-      <created>1588288606269</created>
+    <task id="LOCAL−00001" summary="ref">
+      <created>1588498095603</created>
       <option name="number" value="LOCAL−00001" />
       <option name="presentableId" value="LOCAL−00001" />
-      <updated>1588288606269</updated>
+      <updated>1588498095603</updated>
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="latest" />
-    <option name="LAST_COMMIT_MESSAGE" value="latest" />
+    <MESSAGE value="ref" />
+    <option name="LAST_COMMIT_MESSAGE" value="ref" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="95" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588269794088">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="481" y="283" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1587129073303">
+      <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state x="95" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1588269794088" />
-    <state x="409" y="143" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588268894934">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="481" y="283" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1280.709@0.23.1280.709" timestamp="1587129073303" />
+    <state x="249" y="0" key="CommitChangelistDialog2" timestamp="1588505976757">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="409" y="143" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1588268894934" />
-    <state x="296" y="0" key="CommitChangelistDialog2" timestamp="1588288604832">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="249" y="0" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1588505976757" />
+    <state width="1238" height="49" key="GridCell.Tab.0.bottom" timestamp="1588089305981">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="296" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1588288604832" />
-    <state width="1237" height="17" key="GridCell.Tab.0.bottom" timestamp="1588446750394">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1238" height="49" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1588089305981" />
+    <state width="1228" height="149" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1587129172485" />
+    <state width="1238" height="49" key="GridCell.Tab.0.center" timestamp="1588089305979">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1237" height="17" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1588446750394" />
-    <state width="1237" height="17" key="GridCell.Tab.0.center" timestamp="1588446750394">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1238" height="49" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1588089305979" />
+    <state width="1228" height="149" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1587129172484" />
+    <state width="1238" height="49" key="GridCell.Tab.0.left" timestamp="1588089305977">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1237" height="17" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1588446750394" />
-    <state width="1237" height="17" key="GridCell.Tab.0.left" timestamp="1588446750394">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1238" height="49" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1588089305977" />
+    <state width="1228" height="149" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1587129172483" />
+    <state width="1238" height="49" key="GridCell.Tab.0.right" timestamp="1588089305980">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1237" height="17" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1588446750394" />
-    <state width="1237" height="17" key="GridCell.Tab.0.right" timestamp="1588446750394">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1238" height="49" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1588089305980" />
+    <state width="1228" height="149" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1587129172484" />
+    <state x="350" y="114" key="MultipleFileMergeDialog" timestamp="1588505996845">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1237" height="17" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1588446750394" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1588288618704">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="350" y="114" key="MultipleFileMergeDialog/0.0.1280.800@0.0.1280.800" timestamp="1588505996845" />
+    <state x="362" y="180" key="git4idea.merge.GitPullDialog" timestamp="1588506009869">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1588288618704" />
-    <state x="336" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1588446842444">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="336" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1588446842444" />
+    <state x="362" y="180" key="git4idea.merge.GitPullDialog/0.0.1280.800@0.0.1280.800" timestamp="1588506009869" />
   </component>
 </project>
