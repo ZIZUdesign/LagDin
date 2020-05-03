@@ -20,7 +20,7 @@ import java.util.ResourceBundle;
 import static java.lang.Integer.parseInt;
 
 
-public class screen1Controller implements Initializable, Serializable {
+public class screen1Controller implements Initializable {
 
         @FXML
         private TableView<Data> tableView;
@@ -32,6 +32,11 @@ public class screen1Controller implements Initializable, Serializable {
     //These instance variables are used to create new Data objects
     @FXML private TextField navnTextField;
     @FXML private TextField prisTextField;
+
+    private ConvertersWithErrorHandling.IntegerStringConverter intStrConverter
+            = new ConvertersWithErrorHandling.IntegerStringConverter();
+
+
 
 
     /**
@@ -50,49 +55,10 @@ public class screen1Controller implements Initializable, Serializable {
     }
     /**
      * This method will allow the user to double click on a cell and update
-     * the name of the prosessor
+     * the pris  of the prosessor
      */
-    @FXML
-    private void OppdaterPris(TableColumn.CellEditEvent<Data, Double> event) {
-        try {
-            if(intStrConverter.wasSuccessful())
-                event.getRowValue().setPris(event.getNewValue());
-        } catch (NumberFormatException e) {
-            Dialogs.showErrorDialog("Du må skrive inn et positivt tall.");
-        } catch (IllegalArgumentException e) {
-            Dialogs.showErrorDialog("Ugyldig alder: " + e.getMessage());
-        }
 
-        tableView.refresh();
-    }
 
-    @FXML
-    protected void addProsesser(ActionEvent event) {
-
-          final long serialVersionUID = 1;
-
-          ObservableList<Data> pregister = FXCollections.observableArrayList();
-
-        public List<Data> getRegister() {
-            return pregister;
-        }
-
-        public void addPerson(Data d) {
-            pregister.add(d);
-        }
-
-            try {
-                ObservableList<Data> data = tableView.getItems();
-                data.add(new Data(navnColumn.getText(), Integer.parseInt(prisColumn.getText())));
-                tableView.setItems(data);
-
-                //navnColumn.setText("");
-                //prisColumn.setText("");
-            }
-            catch (NumberFormatException e){
-                throw new IllegalArgumentException(" Prisen må være tall "+e);
-            }
-        }// addProsessor
 
     /**
      * This method will remove the selected row(s) from the table
@@ -114,18 +80,12 @@ public class screen1Controller implements Initializable, Serializable {
     }//fjernProsessor
 
     /**
-     * This method will create a new Person object and add it to the table
+     * This method will create a new Data object and add it to the table
      */
-    @FXML
-    public void newPersonButtonPushed()
-    {
-        Data newData = new Data(navnColumn.getText(), Double.parseDouble(prisColumn.getText()));
-                //tableView.getItems().add(newData);
-    }
+
 
 
         ObservableList<Data> list= FXCollections.observableArrayList();
-
 
         @Override
         public void initialize(URL location, ResourceBundle resources) {
@@ -146,7 +106,7 @@ public class screen1Controller implements Initializable, Serializable {
 
             navnColumn.setCellValueFactory(new PropertyValueFactory<Data, String>("navn"));
             prisColumn.setCellValueFactory(new PropertyValueFactory<Data, Integer>("pris"));
-            //velgColumn.setCellValueFactory(new PropertyValueFactory<Data,CheckBox>("velg"));
+
 
             tableView.setEditable(true);
             navnColumn.setCellFactory(TextFieldTableCell.forTableColumn());

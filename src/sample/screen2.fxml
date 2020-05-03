@@ -13,7 +13,7 @@
             <Font name="System Bold Italic" size="36.0" />
          </font>
       </Label>
-      <TableView fx:id="table" layoutX="43.0" layoutY="52.0" prefHeight="200.0" prefWidth="483.0">
+      <TableView fx:id="tableView" layoutX="43.0" layoutY="52.0" onSort="#OppdaterSkjerm" prefHeight="200.0" prefWidth="483.0">
         <columns>
           <TableColumn fx:id="nameColumn" prefWidth="268.33331298828125" text="Navn" />
           <TableColumn fx:id="priceColumn" prefWidth="113.66668701171875" text="Pris" />

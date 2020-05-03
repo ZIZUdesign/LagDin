@@ -16,16 +16,16 @@ public class Data implements Serializable {
     private static final long serialVersionUID = 1;
 
     private transient  SimpleStringProperty navn;
-    private transient SimpleDoubleProperty pris;
+    private transient SimpleIntegerProperty pris;
 
 
-    public Data(String fnavn, double newPris) {
+    public Data(String fnavn, int newPris) {
 
-        if (!DataValidator.pris(pris)) {
+        if (!DataValidator.pris(newPris)) {
             throw new InvalidPrisException();
         }
         this.navn = new SimpleStringProperty(fnavn);
-        this.pris = new SimpleDoubleProperty(newPris);
+        this.pris = new SimpleIntegerProperty(newPris);
 
     }
 
@@ -51,7 +51,7 @@ public class Data implements Serializable {
         return pris.get();
     }
 
-    public void setPris(double pris) {
+    public void setPris(int pris) {
         this.pris.set(pris);
     }
 
@@ -74,10 +74,10 @@ public class Data implements Serializable {
         double pris = s.readInt();
 
         this.navn = new SimpleStringProperty();
-        this.pris = new SimpleDoubleProperty();
+        this.pris = new SimpleIntegerProperty();
 
         setName(name);
-        setPris(pris);
+        setPris((int) pris);
 
     }
 
