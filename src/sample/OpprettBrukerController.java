@@ -51,7 +51,7 @@ public class OpprettBrukerController {
 
             //Finn ut hvordan man kan gi bekreftelse til bruker på at det fungerer
 
-            lastInnStage(actionEvent, "/sample/sample0.fxml");
+            lastInnStage(actionEvent, "/sample/Administrator/sample0.fxml");
 
         } catch (InputMismatchException e) {
 
@@ -81,7 +81,7 @@ public class OpprettBrukerController {
 
     public void btnAvbryt(ActionEvent actionEvent) {
 
-        lastInnStage(actionEvent, "/sample/sample0.fxml");
+        lastInnStage(actionEvent, "/sample/Administrator/sample0.fxml");
 
     }
 

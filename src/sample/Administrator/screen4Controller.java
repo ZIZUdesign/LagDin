@@ -1,4 +1,4 @@
-package sample;
+package sample.Administrator;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;

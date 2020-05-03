@@ -1,4 +1,4 @@
-package sample;
+package sample.Administrator;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -8,6 +8,8 @@ import javafx.scene.control.CheckBox;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
+import sample.Data;
+import sample.Dialogs;
 
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -71,6 +73,7 @@ public class screen2Controller implements Initializable {
                 new Data("Intel Pentium G5420 Prosessor", 649),
                 new Data("Intel Xeon Platinum 8180 Prosessor", 146459)
         );
+
 
         tableView.setItems(list);
 

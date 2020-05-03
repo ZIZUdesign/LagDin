@@ -1,4 +1,4 @@
-package sample;
+package sample.Administrator;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -13,7 +13,7 @@ import sample.Data;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-public class screen5Controller implements Initializable {
+public class screen3Controller implements Initializable {
 
     @FXML
     private TableView<Data> tableView;
@@ -25,14 +25,11 @@ public class screen5Controller implements Initializable {
     private TableColumn<Data, CheckBox> velgColumn;
 
 
-
-
-
-
-
     @Override
     public void initialize(URL location, ResourceBundle resources) {
+
         CheckBox ch= new CheckBox();
+
         navnColumn.setCellValueFactory(new PropertyValueFactory<Data, String>("navn"));
         prisColumn.setCellValueFactory(new PropertyValueFactory<Data, Integer>("pris"));
         velgColumn.setCellValueFactory(new PropertyValueFactory<Data, CheckBox>("velg"));
@@ -48,6 +45,7 @@ public class screen5Controller implements Initializable {
         );
 
         tableView.setItems(list);
+
 
 
     }
