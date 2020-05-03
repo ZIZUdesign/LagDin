@@ -18,7 +18,7 @@ import java.io.IOException;
 
                 FXMLLoader loader = new FXMLLoader();
 
-                loader.setLocation(sample.BytteAvScener.class.getResource(fxmlFil));
+                loader.setLocation(BytteAvScener.class.getResource(fxmlFil));
 
                 Parent tableViewParent = loader.load();
 

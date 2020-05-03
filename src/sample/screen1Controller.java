@@ -2,22 +2,25 @@ package sample;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.control.CheckBox;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.control.cell.TextFieldTableCell;
 
+
+import java.io.Serializable;
 import java.net.URL;
+import java.util.List;
 import java.util.ResourceBundle;
 
-import static javafx.scene.control.cell.TextFieldTableCell.*;
+import static java.lang.Integer.parseInt;
 
 
-public class screen1Controller implements Initializable  {
+public class screen1Controller implements Initializable, Serializable {
 
         @FXML
         private TableView<Data> tableView;
@@ -25,16 +28,100 @@ public class screen1Controller implements Initializable  {
         private TableColumn<Data, String > navnColumn;
         @FXML
         private TableColumn<Data, Integer> prisColumn;
-        @FXML
-        private TableColumn<Data, CheckBox> velgColumn;
+
+    //These instance variables are used to create new Data objects
+    @FXML private TextField navnTextField;
+    @FXML private TextField prisTextField;
 
 
-        public void OppdaterNavn( TableColumn.CellEditEvent edditedCell){
-            Data rowSelected = (Data) tableView.getSelectionModel().getSelectedItems();
-            rowSelected.setNavn(edditedCell.getNewValue().toString());
-
-            
+    /**
+     * This method will allow the user to double click on a cell and update
+     * the name of the prosessor
+     */
+    @FXML
+    private void OppdaterNavn(TableColumn.CellEditEvent<Data, String> event) {
+        try {
+            event.getRowValue().setName(event.getNewValue());
+        } catch (IllegalArgumentException e) {
+            Dialogs.showErrorDialog("Ugyldig navn: " + e.getMessage());
         }
+
+        tableView.refresh();
+    }
+    /**
+     * This method will allow the user to double click on a cell and update
+     * the name of the prosessor
+     */
+    @FXML
+    private void OppdaterPris(TableColumn.CellEditEvent<Data, Double> event) {
+        try {
+            if(intStrConverter.wasSuccessful())
+                event.getRowValue().setPris(event.getNewValue());
+        } catch (NumberFormatException e) {
+            Dialogs.showErrorDialog("Du må skrive inn et positivt tall.");
+        } catch (IllegalArgumentException e) {
+            Dialogs.showErrorDialog("Ugyldig alder: " + e.getMessage());
+        }
+
+        tableView.refresh();
+    }
+
+    @FXML
+    protected void addProsesser(ActionEvent event) {
+
+          final long serialVersionUID = 1;
+
+          ObservableList<Data> pregister = FXCollections.observableArrayList();
+
+        public List<Data> getRegister() {
+            return pregister;
+        }
+
+        public void addPerson(Data d) {
+            pregister.add(d);
+        }
+
+            try {
+                ObservableList<Data> data = tableView.getItems();
+                data.add(new Data(navnColumn.getText(), Integer.parseInt(prisColumn.getText())));
+                tableView.setItems(data);
+
+                //navnColumn.setText("");
+                //prisColumn.setText("");
+            }
+            catch (NumberFormatException e){
+                throw new IllegalArgumentException(" Prisen må være tall "+e);
+            }
+        }// addProsessor
+
+    /**
+     * This method will remove the selected row(s) from the table
+     */
+    @FXML
+    public void fjernProsessor ()
+    {
+        ObservableList<Data> selectedRows, allData;
+        allData = tableView.getItems();
+
+        //this gives us the rows that were selected
+        selectedRows = tableView.getSelectionModel().getSelectedItems();
+
+        //loop over the selected rows and remove the Person objects from the table
+        for (Data data: selectedRows)
+        {
+            allData.remove(data);
+        }
+    }//fjernProsessor
+
+    /**
+     * This method will create a new Person object and add it to the table
+     */
+    @FXML
+    public void newPersonButtonPushed()
+    {
+        Data newData = new Data(navnColumn.getText(), Double.parseDouble(prisColumn.getText()));
+                //tableView.getItems().add(newData);
+    }
 
 
         ObservableList<Data> list= FXCollections.observableArrayList();
@@ -45,32 +132,25 @@ public class screen1Controller implements Initializable  {
 
 
 
-
-            for (int i=0; i<5; i++){
-                CheckBox chbox= new CheckBox();
-                list.add(new Data("AMD Athlon 3000G Prosessor", 599, chbox));
-            }
-
-
-       /*
-        final ObservableList<Data> list = FXCollections.observableArrayList(
-                new Data("AMD Athlon 3000G Prosessor", 599,ch),
-                new Data("AMD Athlon 200GE Prosessor", 649,ch),
-                new Data("Intel Celeron G4930 Prosessor", 499,ch),
-                new Data("Intel Pentium G5420 Prosessor", 649,ch),B
-                new Data("Intel Xeon Platinum 8180 Prosessor", 146459,ch)
+            final ObservableList<Data> list = FXCollections.observableArrayList(
+                new Data("AMD Athlon 3000G Prosessor", 599),
+                new Data("AMD Athlon 200GE Prosessor", 649),
+                new Data("Intel Celeron G4930 Prosessor", 499),
+                new Data("Intel Pentium G5420 Prosessor", 649),
+                new Data("Intel Xeon Platinum 8180 Prosessor", 146459)
         );
-   */
+
 
 
             tableView.setItems(list);
 
             navnColumn.setCellValueFactory(new PropertyValueFactory<Data, String>("navn"));
             prisColumn.setCellValueFactory(new PropertyValueFactory<Data, Integer>("pris"));
-            velgColumn.setCellValueFactory(new PropertyValueFactory<Data,CheckBox>("velg"));
+            //velgColumn.setCellValueFactory(new PropertyValueFactory<Data,CheckBox>("velg"));
 
             tableView.setEditable(true);
             navnColumn.setCellFactory(TextFieldTableCell.forTableColumn());
+            prisColumn.setCellFactory(TextFieldTableCell.forTableColumn(intStrConverter));
 
 
 

@@ -1,8 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f84dadc4-37ea-462e-92b1-a233046ea697" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="8ba4a629-0e94-4f56-b27e-a475259cf521" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/out/production/LagDinPC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LagDinPC/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LagDinPC/META-INF/LagDinPC.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/admin/Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/EkisisterendeBrukerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/EkisisterendeBrukerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/FxmlLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/admin/FxmlLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/admin/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/admin/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/OpprettBrukerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/OpprettBrukerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/admin/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/sample0.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/admin/sample0.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/screen0Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/admin/screen0Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/screen1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/admin/screen1.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/screen1Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/admin/screen1Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/screen2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/admin/screen2.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/screen2Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/admin/screen2Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/screen3.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/admin/screen3.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/screen3Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/admin/screen3Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/screen4.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/admin/screen4.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/screen4Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/admin/screen4Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/screen5.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/admin/screen5.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/screen5Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/admin/screen5Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/screen6.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/admin/screen6.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/screen6Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/admin/screen6Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/screen7.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/admin/screen7.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/screen7Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/admin/screen7Controller.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,7 +36,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1afaJzwZUr3KbzOiCekJMHxTiiH" />
+  <component name="ProjectId" id="1bGocRrOU0yCJQfGLgg7GQl0uJT" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -20,17 +44,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sample.Main" />
+      <option name="MAIN_CLASS_NAME" value="sample.admin.Main" />
       <module name="LagDinPC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sample.*" />
+          <option name="PATTERN" value="sample.admin.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -49,38 +70,18 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f84dadc4-37ea-462e-92b1-a233046ea697" name="Default Changelist" comment="" />
-      <created>1587129034099</created>
+      <changelist id="8ba4a629-0e94-4f56-b27e-a475259cf521" name="Default Changelist" comment="" />
+      <created>1588267869489</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1587129034099</updated>
-      <workItem from="1587129041380" duration="127000" />
+      <updated>1588267869489</updated>
     </task>
     <servers />
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="481" y="283" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1587129073303">
-      <screen x="0" y="23" width="1280" height="709" />
+    <state x="409" y="143" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588268894934">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="481" y="283" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1280.709@0.23.1280.709" timestamp="1587129073303" />
-    <state width="1228" height="149" key="GridCell.Tab.0.bottom" timestamp="1587129172485">
-      <screen x="0" y="23" width="1280" height="709" />
-    </state>
-    <state width="1228" height="149" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1587129172485" />
-    <state width="1228" height="149" key="GridCell.Tab.0.center" timestamp="1587129172484">
-      <screen x="0" y="23" width="1280" height="709" />
-    </state>
-    <state width="1228" height="149" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1587129172484" />
-    <state width="1228" height="149" key="GridCell.Tab.0.left" timestamp="1587129172483">
-      <screen x="0" y="23" width="1280" height="709" />
-    </state>
-    <state width="1228" height="149" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1587129172483" />
-    <state width="1228" height="149" key="GridCell.Tab.0.right" timestamp="1587129172484">
-      <screen x="0" y="23" width="1280" height="709" />
-    </state>
-    <state width="1228" height="149" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1587129172484" />
+    <state x="409" y="143" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1588268894934" />
   </component>
 </project>
