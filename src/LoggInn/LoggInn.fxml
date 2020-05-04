@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="571.0" prefWidth="790.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.LoggInn">
+   <children>
+      <TextArea layoutX="80.0" layoutY="398.0" prefHeight="150.0" prefWidth="514.0" />
+      <Label alignment="CENTER" layoutX="158.0" layoutY="372.0" prefHeight="17.0" prefWidth="363.0" text="Din PC : ">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <TableView layoutX="17.0" layoutY="36.0" prefHeight="307.0" prefWidth="641.0">
+        <columns>
+          <TableColumn prefWidth="101.66665649414062" text="Prosessor " />
+          <TableColumn prefWidth="86.33334350585938" text="ProsessorPris" />
+            <TableColumn prefWidth="128.33331298828125" text="Skjermkort " />
+            <TableColumn prefWidth="95.66668701171875" text="SkjermPris" />
+            <TableColumn prefWidth="142.33331298828125" text="Minne " />
+            <TableColumn prefWidth="88.33331298828125" text="MinnePris" />
+        </columns>
+      </TableView>
+      <Label alignment="CENTER" layoutX="172.0" prefHeight="41.0" prefWidth="363.0" text="Lag Din PC ">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

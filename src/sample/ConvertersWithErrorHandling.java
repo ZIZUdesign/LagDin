@@ -1,5 +1,7 @@
 package sample;
 
+import Admin.Dialogs;
+
 public class ConvertersWithErrorHandling {
 
     public static class IntegerStringConverter extends javafx.util.converter.IntegerStringConverter {

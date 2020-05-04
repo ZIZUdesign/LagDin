@@ -22,7 +22,7 @@ public class MainController implements Initializable {
     private void  velgProsessorButton (ActionEvent event) throws IOException {
         System.out.println("You cliked me ");
         FxmlLoader object = new FxmlLoader();
-        Pane view = object.getPage("screen1");
+        Pane view = object.getPage("Prosessor");
         mainPane.setCenter(view);
 
     }// prosessorButtonPresserd
@@ -32,7 +32,7 @@ public class MainController implements Initializable {
 
         System.out.println("You cliked me ");
         FxmlLoader object = new FxmlLoader();
-        Pane view = object.getPage("screen2");
+        Pane view = object.getPage("Skjermkort");
         mainPane.setCenter(view);
 
     }
@@ -42,47 +42,7 @@ public class MainController implements Initializable {
 
         System.out.println("You cliked me ");
         FxmlLoader object = new FxmlLoader();
-        Pane view = object.getPage("screen3");
-        mainPane.setCenter(view);
-
-    }
-
-    @FXML
-    private void  velgHarddiskButton (ActionEvent event) throws IOException {
-
-        System.out.println("You cliked me ");
-        FxmlLoader object = new FxmlLoader();
-        Pane view = object.getPage("screen4");
-        mainPane.setCenter(view);
-
-    }
-
-    @FXML
-    private void  velgTastaturButton (ActionEvent event) throws IOException {
-
-        System.out.println("You cliked me ");
-        FxmlLoader object = new FxmlLoader();
-        Pane view = object.getPage("screen5");
-        mainPane.setCenter(view);
-
-    }
-
-    @FXML
-    private void  velgMusButton (ActionEvent event) throws IOException {
-
-        System.out.println("You cliked me ");
-        FxmlLoader object = new FxmlLoader();
-        Pane view = object.getPage("screen6");
-        mainPane.setCenter(view);
-
-    }
-
-    @FXML
-    private void  velgSkjermButton (ActionEvent event) throws IOException {
-
-        System.out.println("You cliked me ");
-        FxmlLoader object = new FxmlLoader();
-        Pane view = object.getPage("screen7");
+        Pane view = object.getPage("Minne");
         mainPane.setCenter(view);
 
     }

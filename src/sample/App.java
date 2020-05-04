@@ -13,7 +13,7 @@ public class App extends Application  {
     public void start(Stage Stage) {
 
      try {
-        Parent root = FXMLLoader.load(getClass().getResource("sample0.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("AppsFørsteScene.fxml"));
         Stage.setScene(new Scene(root));
         Stage.show();
 
