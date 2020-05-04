@@ -5,7 +5,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.Pane;
-import sample.FxmlLoader;
+import Admin.FxmlLoader;
 
 import java.io.IOException;
 import java.net.URL;
@@ -21,7 +21,7 @@ public class LogInnController implements Initializable {
     private void EksisterendeBrukerButton(ActionEvent event) throws IOException {
 
         FxmlLoader object = new FxmlLoader();
-        Pane view = object.getPage("sample");
+        Pane view = object.getPage("AppsScene");
         mainPane.setCenter(view);
 
 

@@ -1,4 +1,4 @@
-package sample;
+package AppsScene;
 
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
@@ -12,7 +12,7 @@ import java.io.IOException;
 
     public class BytteAvScener {
 
-        public static void lastInnStage(javafx.event.ActionEvent actionEvent,String fxmlFil) {
+        public static void lastInnStage(javafx.event.ActionEvent actionEvent,String fxmlFil) throws Exception{
 
             try {
 

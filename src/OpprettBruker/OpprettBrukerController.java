@@ -9,7 +9,7 @@ import javafx.scene.control.TextField;
 import java.util.InputMismatchException;
 
 import static OpprettBruker.Bruker.brukereListe;
-import static sample.BytteAvScener.lastInnStage;
+import static AppsScene.BytteAvScener.lastInnStage;
 
 public class OpprettBrukerController {
 
@@ -51,7 +51,7 @@ public class OpprettBrukerController {
 
             //Finn ut hvordan man kan gi bekreftelse til bruker på at det fungerer
 
-            lastInnStage(actionEvent, "/sample/AppsFørsteScene.fxml");
+            lastInnStage(actionEvent, "/AppsScene/AppsFørsteScene.fxml");
 
         } catch (InputMismatchException e) {
 
@@ -73,15 +73,17 @@ public class OpprettBrukerController {
 
             alarmboks.show();
 
+        } catch (Exception e) {
+            e.printStackTrace();
         }
 
 
     }
 
 
-    public void btnAvbryt(ActionEvent actionEvent) {
+    public void btnAvbryt(ActionEvent actionEvent) throws Exception {
 
-        lastInnStage(actionEvent, "/sample/AppsFørsteScene.fxml");
+        lastInnStage(actionEvent, "/AppsScene/AppsFørsteScene.fxml");
 
     }
 

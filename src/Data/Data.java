@@ -2,7 +2,7 @@ package Data;
 
 import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.property.SimpleStringProperty;
-import sample.InvalidPrisException;
+import io.InvalidPrisException;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;

@@ -1,4 +1,4 @@
-package sample;
+package io;
 
 public class InvalidPrisException  extends  IllegalArgumentException {
     public InvalidPrisException() {
